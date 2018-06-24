@@ -1,17 +1,8 @@
 INSERT INTO users (id, name, age) VALUES (1,"Daniel", 43), (2,"Ariana", 14), (3,"Mina", 44), (4,"Mikel", 19), (5,"Belinda", 48), (6,"Gloria", 62), (7,"George", 59), (8,"Archie", 54), (9,"Felipe", 88), (10,"Aurora", 85), (11,"Nora", 53), (12,"Bob", 28), (13,"Jude", 33), (14,"Billy", 42), (15,"Maria", 50), (16,"John", 18), (17,"Amy", 34), (18,"Billy", 17), (19,"Joseph", 69), (20,"Abigail", 28);
 
 
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES
-(1, 'Help me buy a guitar', 'music', 500.00, '2013-06-30', '2013-07-30'),
-(2, 'My book on SQL', 'books', 20.00, '2013-01-01', '2014-01-01'),
-(3, 'The next Harry Potter', 'books', 1000.00, '2013-05-30', '2015-05-30'),
-(4, 'Animal shelter needs dog food', 'charity', 400.00, '2013-03-14', '2013-06-30'),
-(5, 'Voldement needs a body', 'charity', 6000.00, '2013-03-20', '2013-09-20'),
-(6, 'The next Inna-Gadda-Davida', 'music', 200.00, '2014-12-30', '2015-12-30'),
-(7, 'Iguana needs tail operation', 'charity', 2000.00, '2013-10-02', '2013-10-30'),
-(8, 'I have bed bugs!', 'charity', 800.00, '2014-06-30', '2014-06-31'),
-(9, 'I want to teach English in China', 'charity', 3000.00, '2013-06-30', '2013-09-30'),
-(10, 'Help save birds of paradise', 'charity', 5000.00, '2012-03-20', '2013-06-30');
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES ("school", 1000000, "January 1, 2018", "December 31, 2018"), ("clubhouse", 1000, "January 10, 2018", "October 31, 2018"), ("pool", 25000, "March 1, 2018", "August 31, 2018"), ("car", 5000, "June 20, 2018", "June 30, 2018"), ("pet_shelter", 50000, "January 1, 2018", "December 31, 2018"), ("website", 15000, "February 18, 2018", "July 2, 2018"), ("computer", 800, "September 1, 2018", "September 15, 2018"), ("garden", 350, "July 1, 2018", "July 31, 2018"), ("wall", 7500, "January 1, 2018", "July 31, 2018"), ("art_wall", 1500, "June 22, 2018", "July 18, 2018");
+
 
 INSERT INTO pledges (id, amount, user_id, project_id) VALUES
 (1, 10.00, 1, 2),
