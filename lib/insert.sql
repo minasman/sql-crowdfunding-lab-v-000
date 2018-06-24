@@ -4,7 +4,7 @@ INSERT INTO users (id, name, age) VALUES (1,"Daniel", 43), (2,"Ariana", 14), (3,
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("school", 1000000, "January 1, 2018", "December 31, 2018"), ("clubhouse", 1000, "January 10, 2018", "October 31, 2018"), ("pool", 25000, "March 1, 2018", "August 31, 2018"), ("car", 5000, "June 20, 2018", "June 30, 2018"), ("pet_shelter", 50000, "January 1, 2018", "December 31, 2018"), ("website", 15000, "February 18, 2018", "July 2, 2018"), ("computer", 800, "September 1, 2018", "September 15, 2018"), ("garden", 350, "July 1, 2018", "July 31, 2018"), ("wall", 7500, "January 1, 2018", "July 31, 2018"), ("art_wall", 1500, "June 22, 2018", "July 18, 2018");
 
 
-INSERT INTO pledges (id, amount, user_id, project_id) VALUES
+INSERT INTO pledges (amount, user_id, project_id) VALUES
 (1, 10.00, 1, 2),
 (2, 20.00, 1, 3),
 (3, 40.00, 1, 4),
